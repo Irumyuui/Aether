@@ -161,7 +161,7 @@ mod tests {
 
     #[test]
     fn test_bptree_put() {
-        let test_path = std::env::temp_dir().join("test_bptree_get");
+        let test_path = std::env::temp_dir().join("test_bptree_put");
         let path = test_path.clone();
 
         std::fs::create_dir_all(&test_path).expect("create test dir failed.");
